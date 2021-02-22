@@ -1,5 +1,5 @@
 body{
-    background-color: #f5d9d5;
+    background-color: #3b3628;
     font-family: 'Nunito', sans-serif;
 }
 .blurb h2{
@@ -8,7 +8,7 @@ body{
     font-size: 2.5rem;
 }
 .blurb p{
-    color: #f498b8;
+    color:white;
     font-weight: 100;
     font-size: 1.125rem;
     line-height: 2;
@@ -38,8 +38,14 @@ body{
     font-size: 4rem;
 }
  #mainNavbar.scrolled{
-     background: rgb(222,192,222);
-     transition: background 500ms;
+     /* background: #bbbdbf; */
+     opacity: 0.25;
+     transition: opacity 500ms;
+     
+ }
+ #mainNavbar.scrolled:hover{
+     opacity: 1;
+     transition: opacity 500ms;
  }
 @media (max-width: 1200px){
     #headingGroup h1{
